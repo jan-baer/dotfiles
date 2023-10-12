@@ -1,0 +1,22 @@
+
+alias ll="ls -la"
+alias ..="cd .."
+alias ...="cd ../.."
+alias gitc="git checkout"
+alias gitm="git checkout master"
+alias gitca="git add . && git commit"
+alias sourcez="source ~/.zshrc"
+alias notes="cd ~/dev/projects/notes-diagrams"
+alias ba="cd ~/dev/projects/BA-docker"
+alias h="cd ~"
+alias home="cd ~"
+alias inex="python /home/jan/dev/projects/interactive-networking-exercise/cli/inex_cli.py"
+alias _inex="cd /home/jan/dev/projects/interactive-networking-exercise"
+alias venv="source venv/bin/activate"
+alias life="cd ~/dev/projects/life-long-learning"
+
+# nvim
+alias nv="nvim ."
+alias e="exit"
+
+alias dev="cd ~/dev/"
