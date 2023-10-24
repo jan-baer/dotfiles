@@ -1,5 +1,6 @@
 #!/bin/bash
 
+mv ~/.zshrc ~/.zshrc.bak
 EXTRA_CONFIG=$(sed -n '/# START_DEVCONTAINER_SETUP/,/# END_DEVCONTAINER_SETUP/p' ~/.zshrc.bak)
 # Write the extra configuration to a temporary file
 echo "$EXTRA_CONFIG" > ~/.zshrc.extra
